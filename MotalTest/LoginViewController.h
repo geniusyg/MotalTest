@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LoginViewController.h
 //  MotalTest
 //
 //  Created by SDT-1 on 2014. 1. 10..
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *label;
+@interface LoginViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *tf;
+
 @end
